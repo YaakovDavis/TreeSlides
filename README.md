@@ -16,12 +16,12 @@ This tool automatically generates an hierarchical presentation from a TreeSheets
 4. Optionally replace the bg.png file with another background image, having the same name.
 
 # Presentation control:
-Right/Left buttons: forward/backward in the presentation.
-Esc: Go up one level
-Down/Up: go to next/previous sibling.
-Home: restart presentation.
-F11: toggle full screen.
-F5: reload from xml.
+* Right/Left buttons: forward/backward in the presentation.
+* Esc: Go up one level
+* Down/Up: go to next/previous sibling.
+* Home: restart presentation.
+* F11: toggle full screen.
+* F5: reload from xml.
 
 # Example
 An example presentation is provided in example.cts.
