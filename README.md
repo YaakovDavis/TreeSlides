@@ -1,6 +1,8 @@
 # TreeSlides
 An automatic presentation generator from a TreeSheets hierarchy
 
+![Demo](TreeSlides.gif?raw=true "Demo")
+
 # Intro:
 TreeSheets is a superb tool for editing & describing hierarchies: http://strlen.com/treesheets/
 
@@ -18,12 +20,12 @@ This tool automatically generates an hierarchical presentation from a TreeSheets
 5. To start the presetation, simply launch TreeSlides.exe.
 
 # Presentation control:
-* Right/Left buttons: forward/backward in the presentation.
+* Right/Left buttons: forward/backward in the presentation
 * Esc: Go up one level
-* Down/Up: go to next/previous sibling.
-* Home: restart presentation.
-* F11: toggle full screen.
-* F5: reload from xml.
+* Down/Up: go to next/previous sibling
+* Home: restart presentation
+* F11: toggle full screen
+* F5: reload from xml
 
 # Example
 An example presentation is provided in example.cts.
