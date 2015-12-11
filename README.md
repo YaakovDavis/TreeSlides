@@ -6,7 +6,7 @@ An automatic presentation generator from a TreeSheets hierarchy
 # Intro:
 TreeSheets is a superb tool for editing & describing hierarchies: http://strlen.com/treesheets/
 
-This tool automatically generates an hierarchical presentation from a TreeSheets file exported to XML.
+TreeSlides automatically generates an hierarchical presentation from a TreeSheets file exported to XML.
 
 # Instructions:
 1. Design your presentation in an linear-hierarchical manner:
