@@ -1,6 +1,8 @@
 # TreeSlides
 An automatic presentation generator from a TreeSheets hierarchy
 
+![Demo](TreeSlides.gif?raw=true "Demo")
+
 # Intro:
 TreeSheets is a superb tool for editing & describing hierarchies: http://strlen.com/treesheets/
 
