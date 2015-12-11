@@ -1,15 +1,15 @@
 # TreeSlides
-An automatic presentation generator from a TreeSheets hierarchy
+An automatic presentation generator from a TreeSheets hierarchy:
 
 ![Demo](TreeSlides.gif?raw=true "Demo")
 
 # Intro:
 TreeSheets is a superb tool for editing & describing hierarchies: http://strlen.com/treesheets/
 
-This tool automatically generates an hierarchical presentation from a TreeSheets file exported to XML.
+TreeSlides automatically generates an hierarchical presentation from a TreeSheets file exported to XML.
 
 # Instructions:
-1. Design your presentation in an linear-hierarchical manner:
+1. Design your presentation in a linear-hierarchical manner:
   1. Each node (cell) can have text, and an optional child grid.
   2. Each child grid can have an arbitrary number of rows.
   3. Each row can have an arbitrary number of columns, but only the first column is displayed.
