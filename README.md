@@ -5,7 +5,8 @@ Turn this TreeSheets hierarchy:
 
 ![TreeSheets](ts.png?raw=true "TreeSheets")
 
-into this presentation (gif file - wait for load):
+
+Into this presentation (.gif file - wait for load):
 
 ![Demo](TreeSlides.gif?raw=true "Demo")
 
