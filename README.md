@@ -20,10 +20,10 @@ TreeSlides automatically generates an hierarchical presentation from a TreeSheet
 5. To start the presetation, simply launch TreeSlides.exe.
 
 # Presentation control:
-* Right/Left buttons: forward/backward in the presentation
-* Esc: Go up one level
+* Right/Left buttons: forward/backward-traverse the tree; depth-first ordering
+* Esc: go up one level
 * Down/Up: go to next/previous sibling
-* Home: restart presentation
+* Home: restart presentation (go to root)
 * F11: toggle full screen
 * F5: reload from xml
 
