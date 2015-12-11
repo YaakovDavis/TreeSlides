@@ -1,10 +1,16 @@
 # TreeSlides
-An automatic presentation generator from a TreeSheets hierarchy:
+An automatic presentation generator from a TreeSheets hierarchy.
+
+Turn this TreeSheets hierarchy:
+
+![TreeSheets](ts.png?raw=true "TreeSheets")
+
+into this presentation (gif file - wait for load):
 
 ![Demo](TreeSlides.gif?raw=true "Demo")
 
 # Intro:
-TreeSheets is a superb tool for editing & describing hierarchies: http://strlen.com/treesheets/
+[TreeSheets](http://strlen.com/treesheets) is a superb tool for editing & describing hierarchies.
 
 TreeSlides automatically generates an hierarchical presentation from a TreeSheets file exported to XML.
 
