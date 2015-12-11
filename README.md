@@ -14,6 +14,7 @@ Into this presentation (.gif file - wait for load):
 [TreeSheets](http://strlen.com/treesheets) is a superb tool for editing & describing hierarchies.
 
 TreeSlides automatically generates an hierarchical presentation from a TreeSheets file exported to XML.
+The presentation can be navigated using the keyboard.
 
 # Instructions:
 1. Design your presentation in a linear-hierarchical manner:
