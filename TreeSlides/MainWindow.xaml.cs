@@ -79,10 +79,10 @@ namespace TreeSlides
             LoadTree();
 
             int displayIndex = 0;
-            Action<Node, Node, int, int> add = null;
+            Action<Node, Node, int> add = null;
             Node previous = null;
 
-            add = (n, parent, index, level) =>
+            add = (n, parent, level) =>
             {
                 n.ContentUI.SetValue(TextBlock.TextWrappingProperty, TextWrapping.Wrap);
                 n.ContentUI.Opacity = 0;
@@ -108,11 +108,11 @@ namespace TreeSlides
                 for (int i = 0; i < n.Nodes.Count; i++)
                 {
                     var child = n.Nodes[i];
-                    add(child, n, i, level + 1);
+                    add(child, n, level + 1);
                 }
             };
 
-            add(tree, null, default(int), 0);
+            add(tree, null, 0);
 
             ActivateNode(tree);
         }
@@ -331,7 +331,6 @@ namespace TreeSlides
 
         void ChangeElementOpacity(UIElement element, double opacity, TimeSpan delay = default(TimeSpan))
         {
-
             element.BeginAnimation(UIElement.OpacityProperty, new DoubleAnimation(opacity, TimeSpan.FromSeconds(0.3)) { BeginTime = delay });
         }
 
@@ -356,17 +355,6 @@ namespace TreeSlides
 
             return result;
         }
-
-
-        UIElement CreateBullet()
-        {
-            Rectangle rect = new Rectangle { Width = 20, Height = 20 };
-            rect.Stroke = null;
-            rect.Fill = Brushes.Black;
-            rect.RenderTransform = new MatrixTransform(Matrix.Identity);
-            return rect;
-        }
-
     }
 
 
