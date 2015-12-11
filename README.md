@@ -5,14 +5,16 @@ Turn this TreeSheets hierarchy:
 
 ![TreeSheets](ts.png?raw=true "TreeSheets")
 
-into this presentation (gif file - wait for load):
+
+Into this presentation (.gif file - wait for load):
 
 ![Demo](TreeSlides.gif?raw=true "Demo")
 
 # Intro:
 [TreeSheets](http://strlen.com/treesheets) is a superb tool for editing & describing hierarchies.
 
-TreeSlides automatically generates an hierarchical presentation from a TreeSheets file exported to XML.
+TreeSlides automatically generates an hierarchical presentation from a TreeSheets file exported to XML.  
+The presentation can be navigated using the keyboard.
 
 # Instructions:
 1. Design your presentation in a linear-hierarchical manner:
@@ -26,7 +28,7 @@ TreeSlides automatically generates an hierarchical presentation from a TreeSheet
 5. To start the presetation, simply launch TreeSlides.exe.
 
 # Presentation control:
-* Right/Left buttons: forward/backward-traverse the tree; depth-first ordering
+* Right/Left buttons: go to next/previous node; traverses the tree in depth-first order
 * Esc: go up one level
 * Down/Up: go to next/previous sibling
 * Home: restart presentation (go to root)
