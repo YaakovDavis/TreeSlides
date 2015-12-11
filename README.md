@@ -1,5 +1,5 @@
 # TreeSlides
-An automatic presentation generator from a TreeSheets hierarchy
+An automatic presentation generator from a TreeSheets hierarchy:
 
 ![Demo](TreeSlides.gif?raw=true "Demo")
 
