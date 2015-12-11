@@ -9,6 +9,7 @@ using System.Windows.Media.Animation;
 
 namespace TreeSlides
 {
+    //source: http://pwlodek.blogspot.co.il/2010/12/matrixanimation-for-wpf.html
     public class MatrixAnimation : MatrixAnimationBase
     {
         public Matrix? From
